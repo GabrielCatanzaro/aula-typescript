@@ -1,3 +1,4 @@
-let valores = [10, 20, 30];
-let somaValores = valores.reduce((acc, val) => acc + val, 0);
-console.log("Soma dos valores:", somaValores);
+function mensagemPersonalizada(nome) {
+    return `Olá, ${nome}! Bem-vindo ao TypeScript.`;
+}
+console.log(mensagemPersonalizada("Ana"));
